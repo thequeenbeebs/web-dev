@@ -12,15 +12,9 @@ body {
 }
 
 .middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
 }
 
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
 }
 
 h1 {
@@ -50,4 +44,8 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.profile-image {
+  width: 200px;
 }
