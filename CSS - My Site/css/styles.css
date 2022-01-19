@@ -1,9 +1,14 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .top-container {
   background-color: #96CEB4;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -24,4 +29,16 @@ h1 {
 
 .engineer {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
